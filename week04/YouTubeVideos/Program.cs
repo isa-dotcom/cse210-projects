@@ -63,6 +63,8 @@ class Program
                 Console.WriteLine(comment.GetCommentText());
                 Console.WriteLine();
             }
+            // Add an extra blank line before displaying the next video
+            Console.WriteLine();
         }
     }
 }
